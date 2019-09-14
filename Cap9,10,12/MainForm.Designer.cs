@@ -1,6 +1,6 @@
 ﻿namespace Cap9_10_12
 {
-    partial class Form1
+    partial class MainForm
     {
         /// <summary>
         /// Required designer variable.
@@ -35,6 +35,7 @@
             this.enumeracionToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.cap10ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.policogoToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.cap12ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -42,10 +43,11 @@
             // 
             this.menuStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.cap9ToolStripMenuItem,
-            this.cap10ToolStripMenuItem});
+            this.cap10ToolStripMenuItem,
+            this.cap12ToolStripMenuItem});
             this.menuStrip1.Location = new System.Drawing.Point(0, 0);
             this.menuStrip1.Name = "menuStrip1";
-            this.menuStrip1.Size = new System.Drawing.Size(800, 24);
+            this.menuStrip1.Size = new System.Drawing.Size(344, 24);
             this.menuStrip1.TabIndex = 0;
             this.menuStrip1.Text = "menuStrip1";
             // 
@@ -95,15 +97,21 @@
             this.policogoToolStripMenuItem.Text = "Policogo";
             this.policogoToolStripMenuItem.Click += new System.EventHandler(this.PolicogoToolStripMenuItem_Click);
             // 
-            // Form1
+            // cap12ToolStripMenuItem
+            // 
+            this.cap12ToolStripMenuItem.Name = "cap12ToolStripMenuItem";
+            this.cap12ToolStripMenuItem.Size = new System.Drawing.Size(55, 20);
+            this.cap12ToolStripMenuItem.Text = "Cap 12";
+            // 
+            // MainForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.ClientSize = new System.Drawing.Size(344, 218);
             this.Controls.Add(this.menuStrip1);
             this.MainMenuStrip = this.menuStrip1;
-            this.Name = "Form1";
-            this.Text = "Form1";
+            this.Name = "MainForm";
+            this.Text = "MainForm";
             this.menuStrip1.ResumeLayout(false);
             this.menuStrip1.PerformLayout();
             this.ResumeLayout(false);
@@ -120,6 +128,7 @@
         private System.Windows.Forms.ToolStripMenuItem enumeracionToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem cap10ToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem policogoToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem cap12ToolStripMenuItem;
     }
 }
 

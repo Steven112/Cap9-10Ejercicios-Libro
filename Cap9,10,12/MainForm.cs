@@ -12,9 +12,9 @@ using Cap9_10_12.Capitulo_10;
 
 namespace Cap9_10_12
 {
-    public partial class Form1 : Form
+    public partial class MainForm : Form
     {
-        public Form1()
+        public MainForm()
         {
             InitializeComponent();
         }
