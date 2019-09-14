@@ -39,9 +39,9 @@
             // 
             // Calcularbutton
             // 
-            this.Calcularbutton.Location = new System.Drawing.Point(119, 156);
+            this.Calcularbutton.Location = new System.Drawing.Point(103, 116);
             this.Calcularbutton.Name = "Calcularbutton";
-            this.Calcularbutton.Size = new System.Drawing.Size(75, 23);
+            this.Calcularbutton.Size = new System.Drawing.Size(100, 23);
             this.Calcularbutton.TabIndex = 0;
             this.Calcularbutton.Text = "Calcular";
             this.Calcularbutton.UseVisualStyleBackColor = true;
@@ -99,7 +99,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(436, 272);
+            this.ClientSize = new System.Drawing.Size(223, 183);
             this.Controls.Add(this.PerimetrotextBox);
             this.Controls.Add(this.LongitudtextBox);
             this.Controls.Add(this.CantidadtextBox);
